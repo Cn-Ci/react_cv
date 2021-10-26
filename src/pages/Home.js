@@ -3,8 +3,17 @@ import Navigation from '../components/Navigation';
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Navigation/>
+            <div className="homeContent">
+                <div className="content">
+                    <h1>Cn Cindy</h1>
+                    <h2>Développeuse Web</h2>
+                    <div className="pdf">
+                        <a href="./media/CV.pdf" target="_blank">Télécharger mon CV</a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
